@@ -20,7 +20,7 @@ $mail = new PHPMailer(true);
 
 try {
     //Server settings
-    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+    $mail->SMTPDebug = 2;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
@@ -46,7 +46,7 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Body    = $contenido;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
@@ -54,7 +54,7 @@ try {
           alert "El Mensaje se envió Correctamente";
           window.history.go(-1);
           </script>';
-          
+
 
 } catch (Exception $e) {
     echo "Mensaje no Enviado, hubo un error: {$mail->ErrorInfo}";
@@ -64,15 +64,5 @@ try {
     
     
     
-    $destino= "jisaacbv@hotmail.com";
-    $nombre= $_POST["name"];
-    $email= $_POST["email"];
-    $phone= $_POST["phone"];
-    $mensaje= $_POST["menssage"];
-    /* $contenido =  " Nombre: " . $nombre . "\nCorreo: " . $email . "\nTeléfono: " . $phone . "\nMensaje: " . $mensaje; */
-    $contenido = "Recibiste este mensaje de tu Formulario TMP.\n\n"."Acá los detalles:\n\nNombre: $nombre\n\nCorreo: $email\n\nTeléfono: $phone\n\nMensaje:\n$mensaje";
-
-    mail($destino,"Contacto",$contenido);
-
-
+    
 ?>  
