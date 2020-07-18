@@ -1,6 +1,6 @@
 <?php  
     echo "Hola mundo";
-    $destino= "jisaacbv@gmail.com";
+    $destino= "jisaacbv@hotmail.com";
     $nombre= $_POST["name"];
     $email= $_POST["email"];
     $phone= $_POST["phone"];
