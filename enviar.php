@@ -1,4 +1,5 @@
-<?php
+<?php  
+    echo "Hola mundo";
     $destino= "jisaacbv@gmail.com";
     $nombre= $_POST["name"];
     $email= $_POST["email"];
