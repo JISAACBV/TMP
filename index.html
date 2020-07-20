@@ -322,29 +322,36 @@
                     <h3 class="section-subheading text-muted">Tienes alguna consulta, deseas ser parte de esta Revolución</h3>
                 </div>
 
-
+<!--
                 <form action="assets/mail/enviar.php" method="POST">
+-->                
+<!-- FORMULARIO UTILIZANDO NETLIFY -->
+                
+                <form name="formularioTMP" method="POST"  data-netlify = " true ">
+                
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Tú Nombre *" required="required" data-validation-required-message="Por Favor ingresa tu nombre." />
+                                <input class="form-control" id="name" name="tunombre" type="text" placeholder="Tú Nombre *" required="required" data-validation-required-message="Por Favor ingresa tu nombre." />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Tú Email *" required="required" data-validation-required-message="Por Favor ingresa tu Correo Electrónico." />
+                                <input class="form-control" id="email" name="tuemail" type="email" placeholder="Tú Email *" required="required" data-validation-required-message="Por Favor ingresa tu Correo Electrónico." />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Tú Telefono *" required="required" data-validation-required-message="Por Favor ingresa tu número de teléfono." />
+                                <input class="form-control" id="phone" name="tutelefono" type="tel" placeholder="Tú Telefono *" required="required" data-validation-required-message="Por Favor ingresa tu número de teléfono." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Tu Mensaje *" required="required" data-validation-required-message="Por Favor ingresa tu mensaje."></textarea>
+                                <textarea class="form-control" id="message" name="tumensaje" placeholder="Tu Mensaje *" required="required" data-validation-required-message="Por Favor ingresa tu mensaje."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
+                    </div>
+                    <div  data-netlify-recaptcha = " true " > 
                     </div>
                     <div class="text-center">
                         <div id="success"></div>
