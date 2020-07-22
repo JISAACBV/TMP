@@ -10229,7 +10229,7 @@ header.masthead {
   text-align: center;
   color: #fff;
  
-   background-image: url("../assets/img/taller-mecanico.jpg");
+  background-image: url("../assets/img/taller-mecanico.jpg");
  
  
   background-repeat: no-repeat;
@@ -10239,13 +10239,13 @@ header.masthead {
   position: relative;
 }
 
-header.masthead2 {
+header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
  
-   background-image: url("../assets/img/banner-dos.jpg");
+  background-image: url("../assets/img/banner-dos.jpg");
  
  
   background-repeat: no-repeat;
