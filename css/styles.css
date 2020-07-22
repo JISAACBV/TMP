@@ -10292,6 +10292,9 @@ header.masthead2 {
   background-position: center center;
   background-size: cover;
   position: relative;
+  background: rgba(0,0,0,0.6);
+}
+
 }
 
 
