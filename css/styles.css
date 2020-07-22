@@ -10221,6 +10221,8 @@ img::-moz-selection {
 }
 */
   
+/*   FONDO DE PANTALLA */
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -10228,6 +10230,22 @@ header.masthead {
   color: #fff;
  
    background-image: url("../assets/img/taller-mecanico.jpg");
+ 
+ 
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+header.masthead2 {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+ 
+   background-image: url("../assets/img/banner-dos.jpg");
  
  
   background-repeat: no-repeat;
