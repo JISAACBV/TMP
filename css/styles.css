@@ -10278,24 +10278,26 @@ header.masthead:before {
 
 
 
+
+
 header.masthead2 {
-  padding-top: 10.5rem;
+  background-image: url("../assets/img/banner-dos.jpg");
+   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
- 
-  background-image: url("../assets/img/banner-dos.jpg");
- 
- 
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+ /* color: #fff;   */
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   position: relative;
-  background: rgba(0,0,0,0.6);
+  
 }
 
-}
+
+
+
+
 
 
 header.masthead2:before {
@@ -10309,6 +10311,7 @@ header.masthead2:before {
   background-color: rgba(0,0,0,0.6);
  
 }
+
 
 
 
