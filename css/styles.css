@@ -3995,12 +3995,14 @@ input[type=button].btn-block {
 
 
 .Menu{
+  /*
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
-  /*z-index: 997;
+  z-index: 997;
   padding: 15px 0;
-  top: 40px;*/
+  top: 40px;
+  */
 }
 
 
@@ -7450,6 +7452,15 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+
+
+  background: rgba(12, 11, 9, 0.6);
+  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  transition: all 0.5s;
+ /* z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+*/
 }
 
 .fixed-bottom {
