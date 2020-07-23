@@ -3998,6 +3998,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background: rgba(0,0,0,.85);
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4009,8 +4010,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background: rgba(0,0,0,.85);
-}
+} 
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
