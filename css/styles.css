@@ -551,6 +551,18 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+
+#menu {
+  background: rgba(12, 11, 9, 0.6);
+  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+}
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -10162,10 +10174,10 @@ img::-moz-selection {
   background-color: #212529;   
 
 
-
+/*
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
-/*
+
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
