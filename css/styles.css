@@ -10307,6 +10307,13 @@ header.masthead2 {
 }
 
 
+#fondo h111 {
+	font-size: 60px;
+	color: #fff;
+	position: relative
+}
+
+
 
 header.masthead2:before {
   content: '';
