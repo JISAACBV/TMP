@@ -7446,6 +7446,9 @@ button.bg-dark:focus {
   position: sticky !important;
 }
 
+/*  FONDO DE MENU OSCURO */
+
+
 .fixed-top {
   position: fixed;
   top: 0;
@@ -10156,16 +10159,16 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
- /* background-color: #212529; */  
+  background-color: #212529;   
 
 
-
+/*
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  /*top: 40px; */
+  top: 40px; */
 
 }
 
