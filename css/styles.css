@@ -10278,19 +10278,20 @@ header.masthead:before {
 
 
 
-
-
-header.masthead2 {
+#fondo {
   background-image: url("../assets/img/banner-dos.jpg");
-   padding-top: 10.5rem;
+  padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;   
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
   position: relative;
+}
+
+header.masthead2 {
+  
   
 }
 
