@@ -553,6 +553,8 @@ pre code {
 }
 
 
+/* FONDO OSCURO DEL MENÚ    */ 
+
 #menu {
 
   position: absolute;
@@ -562,11 +564,13 @@ pre code {
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
 
-  padding: 15px 0;
+  padding: 0;
   margin: 0;
   width: 100%;
   text-align: center;
- /*
+ 
+ 
+  /*
   list-style: none;
   left: 0;
   height: 0;
@@ -7491,11 +7495,11 @@ button.bg-dark:focus {
   left: 0;
   z-index: 1030;
 
-
+/*
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
- /* z-index: 997;
+  z-index: 997;
   padding: 15px 0;
   top: 40px;
 */
