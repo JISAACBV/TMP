@@ -556,10 +556,18 @@ pre code {
 /* FONDO OSCURO DEL MENÚ    */ 
 
 #menu {
+
+  padding-right: 0;
+  padding-left: 0;
+  
+  
+  
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  padding-right: 0;
+  padding-left: 0;
 
 
 
@@ -570,9 +578,10 @@ pre code {
   
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
-
+/*
   padding: 0;
   margin: 0;
+ */* 
   width: 100%;
   
   text-align: center;
