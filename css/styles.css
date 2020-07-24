@@ -554,11 +554,26 @@ pre code {
 
 
 #menu {
+
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,.85);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+  transition: height .3s linear;
+
+/*
   width: 100%;
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
-  /*
+  
   z-index: 997;
   padding: 15px 0;
   top: 40px;
