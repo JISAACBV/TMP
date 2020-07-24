@@ -556,8 +556,8 @@ pre code {
 #menu {
 
   position: absolute;
-  top: 60px;
-  left: 0;
+  top: 40px;
+  
   width: 100%;
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
@@ -566,7 +566,7 @@ pre code {
   text-align: center;
  /*
   list-style: none;
-  
+  left: 0;
   height: 0;
   overflow: hidden;
   transition: height .3s linear;
