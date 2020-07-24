@@ -557,13 +557,13 @@ pre code {
 /* FONDO OSCURO DEL MENÚ    */ 
 
 #menu {
-
+  position: absolute;
   padding-right: 0;
   padding-left: 0;
   
   
   
-  position: absolute;
+  
 
   top: 0;
   right: 0;
