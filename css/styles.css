@@ -546,11 +546,11 @@ pre code {
 
 .container {
   width: 100%;
-  /*padding-right: 0.75rem;
+  padding-right: 0.75rem;
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
-  */
+  
 }
 
 
@@ -563,7 +563,8 @@ pre code {
   
   
   
-  position: fixed;
+  position: absolute;
+
   top: 0;
   right: 0;
   left: 0;
@@ -587,7 +588,7 @@ pre code {
   
   text-align: center;
  
- 
+  z-index: 5000;
   /*
   list-style: none;
   left: 0;
