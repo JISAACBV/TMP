@@ -554,6 +554,7 @@ pre code {
 
 
 #menu {
+  width: 100%;
   background: rgba(12, 11, 9, 0.6);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
